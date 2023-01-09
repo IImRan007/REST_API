@@ -12,15 +12,8 @@ app.get("/", (req, res) => {
 // middleware or to set router
 app.use("/api/products", productRoute);
 
-const startPort = async () => {
-  try {
-    await connectDb();
-    app.listen(PORT, () => {
-      console.log(`Running on port:${PORT}`);
-    });
-  } catch (error) {
-    console.log(error);
-  }
-};
+connectDb();
 
-startPort();
+app.listen(PORT, () => {
+  console.log(`Running on port:${PORT}`);
+});
