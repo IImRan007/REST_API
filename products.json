@@ -1,0 +1,35 @@
+[
+  {
+    "name": "iphone",
+    "price": 1232,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "iphone2",
+    "price": 1232,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "samsung",
+    "price": 3243,
+    "company": "samsung"
+  },
+  {
+    "name": "mi",
+    "price": 1212,
+    "feature": true,
+    "company": "mi"
+  },
+  {
+    "name": "mi",
+    "price": 1212,
+    "company": "mi"
+  },
+  {
+    "name": "samsung",
+    "price": 3243,
+    "company": "samsung"
+  }
+]
